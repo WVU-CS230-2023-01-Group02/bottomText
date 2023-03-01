@@ -1,0 +1,34 @@
+.nav {
+    background: transparent;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+.aligner-right {
+    display: flex;
+    justify-content: right;
+}
+
+.aligner-left {
+    display: flex;
+    justify-content: left;
+}
+
+.nav-link{
+    align-items: left;
+    font-family: "Montserrat", sans-serif;
+    padding-top: 5%;
+    font-weight: bold;
+    color: rgb(232, 230, 227);
+}
+
+.nav-link:hover{
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.nav-logo-lg {
+    display: block;
+    align-self: left;
+}
