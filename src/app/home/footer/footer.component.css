@@ -1,0 +1,16 @@
+#info {
+    background-color: #444;
+}
+
+p {
+    color: #999;
+    margin: 0;
+    padding: 5%;
+}
+
+.col1 {
+    float: left;
+}
+.col2 {
+    float: left;
+}
