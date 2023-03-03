@@ -1,0 +1,15 @@
+center{
+    margin:auto;
+    width:75%;
+    text-align:center;
+}
+
+homeButton{
+    position: relative;
+    background-color:black;
+    opacity:60%;
+}
+
+bg{
+    position:absolute;
+}

@@ -7,6 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './home/navbar/navbar.component';
 import { BackgroundComponent } from './home/background/background.component';
 import { FooterComponent } from './home/footer/footer.component';
+import { SignupComponent } from './Layouts/signup/signup.component';
+import { LoginComponent } from './Layouts/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { FooterComponent } from './home/footer/footer.component';
     HomeComponent,
     NavbarComponent,
     BackgroundComponent,
-    FooterComponent
+    FooterComponent,
+    SignupComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
