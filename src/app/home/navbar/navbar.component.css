@@ -1,5 +1,5 @@
 .nav {
-    background: transparent;
+    background-color: transparent;
     font-family: "Montserrat", sans-serif;
     text-decoration: none;
     justify-content: space-between;
@@ -8,6 +8,9 @@
 .aligner-right {
     display: flex;
     justify-content: right;
+    background-color: rgba(0,0,0,.5);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .aligner-left {
