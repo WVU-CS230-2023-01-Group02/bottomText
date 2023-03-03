@@ -9,6 +9,7 @@ import { BackgroundComponent } from './home/background/background.component';
 import { FooterComponent } from './home/footer/footer.component';
 import { SignupComponent } from './Layouts/signup/signup.component';
 import { LoginComponent } from './Layouts/login/login.component';
+import { SearchComponent } from './search/search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { LoginComponent } from './Layouts/login/login.component';
     BackgroundComponent,
     FooterComponent,
     SignupComponent,
-    LoginComponent
+    LoginComponent,
+    SearchComponent
   ],
   imports: [
     BrowserModule,
