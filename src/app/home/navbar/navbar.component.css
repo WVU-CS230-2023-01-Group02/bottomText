@@ -8,11 +8,15 @@
 .aligner{
     margin: auto;
     display: flex;
-    justify-content: center;
-    width: 50%;
-    background-color: rgba(4,4,4,.7);
+    justify-content: right;
+    background-color: rgba(0,0,0,.5);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+}
+
+.aligner-left {
+    display: flex;
+    justify-content: left;
 }
 
 .nav-link{
