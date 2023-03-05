@@ -25,12 +25,12 @@
     padding-top: 5%;
     font-weight: bold;
     font-size: larger;
-    color: rgb(232, 230, 227);
+    color: white;
 }
 
 .nav-link:hover{
-    color:rgb(255, 255, 255);
-    text-decoration: underline;
+    color:#39ace7;
+    /* text-decoration: underline; */
 }
 
 .nav-logo-lg {

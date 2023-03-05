@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './home/home.component';
-import { NavbarComponent } from './home/navbar/navbar.component';
-import { BackgroundComponent } from './home/background/background.component';
-import { FooterComponent } from './home/footer/footer.component';
+import { HomeComponent } from './Layouts/home/home.component';
+import { NavbarComponent } from './Layouts/home/navbar/navbar.component';
+import { BackgroundComponent } from './Layouts/home/background/background.component';
+import { FooterComponent } from './Layouts/home/footer/footer.component';
 import { SignupComponent } from './Layouts/signup/signup.component';
 import { LoginComponent } from './Layouts/login/login.component';
 import { SearchComponent } from './search/search.component';
