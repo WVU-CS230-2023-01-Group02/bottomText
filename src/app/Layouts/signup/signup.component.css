@@ -51,6 +51,18 @@
     color: #999;
 }
 
+.radioBtn{
+    appearance: none;
+    -webkit-appearance: none;
+    border-radius: 50%;
+    border: 5px solid #444;
+    box-shadow: 0 0 0 2px #333;
+}
+
+.radioBtn:checked{
+    border: 5px solid #0784b5;
+}
+
 .radioName{
     font-weight: bold;
     color:#999;
@@ -67,4 +79,9 @@ input[type=submit]{
     padding-bottom:5px;
     padding-left:10px;
     padding-right:10px;
+}
+
+input[type=submit]:hover{
+    color:white;
+    background-color:#0784b5;
 }
