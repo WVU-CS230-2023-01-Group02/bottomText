@@ -5,12 +5,21 @@
     justify-content: space-between;
 }
 
-.aligner-right {
+.aligner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 100;
+    margin: auto;
     display: flex;
-    justify-content: right;
-    background-color: rgba(0,0,0,.5);
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    max-height: 100%;
+    width: 50%;
+    justify-content: center;
+    background-color: rgba(0,0,0,.7);
+    border-bottom-left-radius:70%;
+    border-bottom-right-radius: 70%;
 }
 
 .aligner-left {
@@ -19,16 +28,16 @@
 }
 
 .nav-link{
-    align-items: left;
     font-family: "Montserrat", sans-serif;
     padding-top: 5%;
     font-weight: bold;
-    color: rgb(232, 230, 227);
+    font-size: larger;
+    color: white;
 }
 
 .nav-link:hover{
-    color:rgb(255, 255, 255);
-    text-decoration: underline;
+    color:#39ace7;
+    /* text-decoration: underline; */
 }
 
 .nav-logo-lg {
