@@ -6,6 +6,8 @@
 }
 
 .aligner-right {
+    width:40%;
+    margin:auto;
     display: flex;
     justify-content: right;
     background-color: rgba(0,0,0,.5);
