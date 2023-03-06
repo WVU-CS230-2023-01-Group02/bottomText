@@ -7,7 +7,7 @@ import { HomeComponent } from './Layouts/home/home.component';
 
 import { NavbarComponent } from './Layouts/home/navbar/navbar.component';
 import { BackgroundComponent } from './Layouts/home/background/background.component';
-import { FooterComponent } from './Layouts/home/footer/footer.component';
+import { FooterComponent } from './Layouts/footer/footer.component';
 
 import { SignupComponent } from './Layouts/signup/signup.component';
 import { LoginComponent } from './Layouts/login/login.component';
