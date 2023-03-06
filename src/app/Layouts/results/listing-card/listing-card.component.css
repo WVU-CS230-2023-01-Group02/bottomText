@@ -1,0 +1,8 @@
+.flexBox{
+    display: flex;
+    flex-direction: row;
+}
+
+.card{
+    margin:auto
+}
