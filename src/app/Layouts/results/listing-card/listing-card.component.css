@@ -4,5 +4,24 @@
 }
 
 .card{
-    margin:auto
+    margin:auto;
+    max-width: 70%;
+    background-color: #333;
+}
+
+.infoTypeText{
+    font-family: "Montserrat", sans-serif;
+    color: #999;
+}
+
+.infoText{
+    font-family: "Montserrat", sans-serif;
+    color: #C8C8C8;
+}
+
+.flexInfo{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    align-content: center;
 }
