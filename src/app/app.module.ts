@@ -14,8 +14,6 @@ import { LoginComponent } from './Layouts/login/login.component';
 import { ResultsComponent } from './Layouts/results/results.component';
 import { ListingCardComponent } from './layouts/results/listing-card/listing-card.component';
 >>>>>>> Stashed changes
-import { SignupComponent } from './Layouts/signup/signup.component';
-import { LoginComponent } from './Layouts/login/login.component';
 
 @NgModule({
   declarations: [
@@ -24,9 +22,7 @@ import { LoginComponent } from './Layouts/login/login.component';
     NavbarComponent,
     BackgroundComponent,
 <<<<<<< Updated upstream
-    FooterComponent,
-    SignupComponent,
-    LoginComponent
+    FooterComponent
 =======
     FooterComponent,
     SignupComponent,
