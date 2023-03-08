@@ -11,3 +11,9 @@
     transition: width 0.15s, filter 0.15s;
     color: #999;
 }
+
+#class:focus{
+    color: rgb(200, 200, 200);
+    filter: brightness(1.2);
+    transition: filter 0.15s;
+}

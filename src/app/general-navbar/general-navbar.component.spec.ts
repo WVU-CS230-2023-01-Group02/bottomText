@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { BackgroundComponent } from './background.component';
+import { GeneralNavbarComponent } from './general-navbar.component';
 
-describe('BackgroundComponent', () => {
-  let component: BackgroundComponent;
-  let fixture: ComponentFixture<BackgroundComponent>;
+describe('GeneralNavbarComponent', () => {
+  let component: GeneralNavbarComponent;
+  let fixture: ComponentFixture<GeneralNavbarComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ BackgroundComponent ]
+      declarations: [ GeneralNavbarComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(BackgroundComponent);
+    fixture = TestBed.createComponent(GeneralNavbarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
