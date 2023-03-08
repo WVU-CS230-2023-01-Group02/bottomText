@@ -5,3 +5,9 @@
     width:100%;
     background-color: #444;
 }
+
+.container{
+    display:flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
