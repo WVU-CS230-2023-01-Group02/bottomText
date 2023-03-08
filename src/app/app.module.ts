@@ -15,6 +15,7 @@ import { NavbarComponent } from './Layouts/home/navbar/navbar.component';
 import { BackgroundComponent } from './Layouts/home/background/background.component';
 import { FooterComponent } from './Layouts/footer/footer.component';
 import { SearchComponent } from './search/search.component';
+import { GeneralNavbarComponent } from './general-navbar/general-navbar.component';
 
 
 @NgModule({
@@ -28,7 +29,8 @@ import { SearchComponent } from './search/search.component';
     LoginComponent,
     ResultsComponent,
     ListingCardComponent,
-    SearchComponent
+    SearchComponent,
+    GeneralNavbarComponent
   ],
   imports: [
     BrowserModule,
