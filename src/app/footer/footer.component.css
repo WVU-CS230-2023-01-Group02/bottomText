@@ -1,3 +1,15 @@
-.center{
+.footerContainer{
+    position:absolute;
+}
+
+.footerContent{
+    opacity: 75%;
     bottom:0;
+    font-family: Montserrat, sans-serif;
+    text-align:center;
+    width:100%;
+    padding:0.5%;
+    position:fixed;
+    background-color: #333;
+    color:#999;
 }
